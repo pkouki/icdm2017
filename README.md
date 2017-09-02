@@ -29,7 +29,7 @@ Go into the h2 directory and run build.sh to compile h2. We need to use this ver
 Change the classpath.out file inside your psl-example to use this newly compiled h2. For example change the path from the default: /Users/user/.m2/repository/com/h2database/h2/1.2.126/h2-1.2.126.jar to something like: 
 /Users/pigikouki/Desktop/icdm/icdm2017/h2/bin/h2-1.2.126.jar
 
-copy the folders from icdm/data into psl_example/data
+copy the folders from icdm/data into psl-archetype/psl-archetype-example/src/main/resources/archetype-resources/data/
 
 copy the source files from icdm2017/src/main/java/edu/ucsc/NIH to psl-archetype/psl-archetype-example/src/main/resources/archetype-resources/src/main/java/
 
