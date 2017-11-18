@@ -64,7 +64,8 @@ TimeNow = new Date();
 
 def defaultPath = System.getProperty("java.io.tmpdir")
 String dbpath = "./nih";
-String dir = 'data' + java.io.File.separator+'NIH' + java.io.File.separator + '5folds' + java.io.File.separator + '5foldsValidation' + java.io.File.separator;
+//String dir = 'data' + java.io.File.separator+'NIH' + java.io.File.separator + '5folds' + java.io.File.separator + '5foldsValidation' + java.io.File.separator;
+String dir = 'data' + java.io.File.separator+'NIH' + java.io.File.separator;
 String namesDir = dir;
 String relationalSimDir = dir;
 String transRelationalDir = dir;
