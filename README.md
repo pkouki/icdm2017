@@ -41,4 +41,4 @@ If the program runs out of memory you may want to increase the java VM heap size
 
 For both datasets we provide the feature files that are provided to the PSL models. This is essential for the NIH dataset since it is impossible to release an anonymized version. 
 The data for the NIH are in the folder data/NIH.
-The data for the Wikidata dataset are in the folder /data/Wikidata.
+The data for the Wikidata dataset are in the folder /data/wikidata/newSplit.
