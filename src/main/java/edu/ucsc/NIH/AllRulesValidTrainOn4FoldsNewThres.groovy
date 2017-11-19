@@ -1426,7 +1426,14 @@ ConfusionMatrix computeConfusionMatrix(HashMap<String, Double> persons1_persons2
 		
 	}
 	
-	
+class ConfusionMatrix{
+	int classYes_predictedYes, classYes_predictedNo, classNo_predictedNo, classNo_predictedYes;
+
+	ConfusionMatrix(){
+		classYes_predictedYes=0; classYes_predictedNo=0; classNo_predictedNo=0; classNo_predictedYes=0;
+	}
+
+}	
 	
 		
 	
